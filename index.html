@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/Shecodes/AI recipe generator/index.css">
+    <title>AI recipe generator</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1>Welcome to AI Recipe Generator</h1>
+        </header>
+        <main>
+            <div class="form-wrapper">
+                <form id="recipe-generator-form">
+                    <input type="text" placeholder="Enter a title" autofocus required class="instructions" id="instructions">
+                    <input type="submit" value="Submit" class="submit-button">
+                </form>
+                <div class="hint">ie Kales,Cassava,Potatoes</div>
+            </div>
+            <div class="recipe hidden" id="recipe">
+                
+            </div>
+        </main>
+        <footer>This project is coded by Linder and open sourced on github</footer>
+    </div>
+    <script src="/Shecodes/AI recipe generator/index.js"></script>
+</body>
+</html>
