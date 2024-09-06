@@ -10,7 +10,8 @@ h1{
     margin: 0;
 }
 a{
-  color: blueviolet;  
+  color: blueviolet; 
+  font-size: 12px;
 }
 .container{
     margin: 120px auto;
